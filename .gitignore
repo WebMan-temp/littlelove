@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+.vercel/
+
+# Build / caches
+.turbo/
+.cache/
+dist/
+
+# Env / OS files
+.env*
+*.log
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+
+

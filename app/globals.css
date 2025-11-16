@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #fff7fb;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  background-image: url("/friend/5178023.jpg"); /* make sure this file exists */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  background: none;
+  color: #3b2a3e;
+}
+
+.card {
+  @apply rounded-2xl shadow-soft bg-white border border-pink-100;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-full px-5 py-3 font-medium transition;
+}
+
+.btn-primary {
+  @apply bg-blush-500 text-white hover:bg-blush-400 active:bg-blush-600;
+}
+
+.btn-soft {
+  @apply bg-pink-50 text-blush-700 hover:bg-pink-100 border border-pink-100;
+}
+
+/* Lightbox backdrop blur */
+.backdrop {
+  backdrop-filter: blur(6px);
+}
+
+/* Cute scrollbar */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #ffc9df;
+  border-radius: 9999px;
+  border: 3px solid #fff1f7;
+}
+*::-webkit-scrollbar-track {
+  background: #fff1f7;
+}
+
+/* Cursor bigger on interactive elements */
+button, a {
+  cursor: pointer;
+}
+
+
