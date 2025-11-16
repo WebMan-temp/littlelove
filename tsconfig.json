@@ -24,11 +24,7 @@
         "./*"
       ]
     },
-    "types": [
-      "node",
-      "react/next",
-      "react-dom"
-    ],
+    "types": ["node"],
     "plugins": [
       {
         "name": "next"
